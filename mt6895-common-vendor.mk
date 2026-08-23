@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
+    android.frameworks.displayservice@1.0 \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -271,7 +272,7 @@ PRODUCT_PACKAGES += \
     libdre \
     libfile_op \
     libforkexecwrap \
-    libformatter \
+    libformatter_mtk \
     libfvaudio \
     libged \
     libgpu_aux \
@@ -394,7 +395,7 @@ PRODUCT_PACKAGES += \
     libaiselector \
     libdpframework \
     libgamehdr \
-    libmnl \
+    libmnl-mtk \
     libmtk_drvb \
     libneuralnetworks_sl_driver_mtk_prebuilt \
     libneuron_adapter_mgvi \
@@ -604,7 +605,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libdpframework_so \
     vendor_lib64_libgamehdr_so \
-    vendor_lib64_libmnl_so \
+    vendor_lib64_libmnl-mtk_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
     vendor_lib64_libneuron_adapter_mgvi_so \
