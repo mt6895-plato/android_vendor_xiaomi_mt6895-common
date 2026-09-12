@@ -286,7 +286,6 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
     libksensor \
-    libladder \
     libmfido_isee \
     libmipc \
     libmiresample \
@@ -359,7 +358,6 @@ PRODUCT_PACKAGES += \
     libthhclient \
     libtlcWidevineModularDrm \
     libtrm \
-    libudf \
     liburee_meta_drmkeyinstall \
     libvia-ril \
     libviagpsrpc \
