@@ -10139,6 +10139,18 @@ android_app_import {
     system_ext_specific: true,
 }
 
+android_app_import {
+    name: "MtkTelephonyAssist",
+    owner: "xiaomi",
+    apk: "proprietary/system_ext/priv-app/MtkTelephonyAssist/MtkTelephonyAssist.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
 dex_import {
     name: "camerax-vendor-extensions",
     owner: "xiaomi",
@@ -10158,16 +10170,6 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-ims-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-ims-common.jar",
-    ],
-    system_ext_specific: true,
-    use_generic_config: true,
-}
-
-dex_import {
     name: "mediatek-ims-extension-plugin",
     owner: "xiaomi",
     jars: [
@@ -10177,30 +10179,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telecom-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-telecom-common.jar",
-    ],
-    system_ext_specific: true,
-    use_generic_config: true,
-}
-
-dex_import {
     name: "mediatek-telephony-base",
     owner: "xiaomi",
     jars: [
         "proprietary/system_ext/framework/mediatek-telephony-base.jar",
-    ],
-    system_ext_specific: true,
-    use_generic_config: true,
-}
-
-dex_import {
-    name: "mediatek-telephony-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-telephony-common.jar",
     ],
     system_ext_specific: true,
     use_generic_config: true,
