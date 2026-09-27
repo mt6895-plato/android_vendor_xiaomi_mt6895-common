@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/system/etc/public.libraries-mtk.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-mtk.txt \
     vendor/xiaomi/mt6895-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/xiaomi/mt6895-common/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
@@ -453,6 +454,11 @@ PRODUCT_PACKAGES += \
     vendor.microtrust.hardware.soter@1.0 \
     vendor.microtrust.hardware.thh@2.0 \
     wechat.beanpod \
+    libmtk_vt_wrapper \
+    libvcodec_cap \
+    libvcodec_capenc \
+    vendor.mediatek.hardware.videotelephony-V1-ndk \
+    vendor.mediatek.hardware.videotelephony@1.0 \
     libapuwareapusys.mtk \
     libapuwareapusys_v2.mtk \
     libapuwarehmp.mtk \
@@ -474,7 +480,6 @@ PRODUCT_PACKAGES += \
     libimsma_rtp \
     libimsma_socketwrapper \
     libmtk_vt_service \
-    libmtk_vt_wrapper \
     libmvpu_cic_ci_compiler.mtk \
     libmvpu_cic_ci_compiler_25.mtk \
     libmvpu_clc_14_mvpu_elf_25.mtk \
@@ -504,8 +509,6 @@ PRODUCT_PACKAGES += \
     libsink-mtk \
     libsource \
     libtflite_mtk.mtk \
-    libvcodec_cap \
-    libvcodec_capenc \
     libvt_avsync \
     vendor.mediatek.hardware.apuware.apusys-V5-ndk \
     vendor.mediatek.hardware.apuware.apusys@1.0 \
@@ -518,19 +521,18 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.xrp-V1-ndk \
     vendor.mediatek.hardware.apuware.xrp@1.0 \
     vendor.mediatek.hardware.apuware.xrp@2.0 \
-    vendor.mediatek.hardware.videotelephony-V1-ndk \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     SoterService \
     EngineerMode \
     ImsService \
     MtkGbaService \
     camerax-vendor-extensions \
+    MtkTelephonyAssist \
     mediatek-ims-base \
     mediatek-ims-common \
-    mediatek-ims-extension-plugin \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    mediatek-ims-extension-plugin \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
@@ -608,5 +610,4 @@ PRODUCT_BOOT_JARS += \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    mediatek-telephony-base
