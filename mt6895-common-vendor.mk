@@ -528,8 +528,6 @@ PRODUCT_PACKAGES += \
     camerax-vendor-extensions \
     MtkTelephonyAssist \
     mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-ims-extension-plugin \
@@ -608,6 +606,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     camerax-vendor-extensions \
     mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
     mediatek-telephony-base
