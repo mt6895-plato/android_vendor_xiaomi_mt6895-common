@@ -287,8 +287,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimsg_log \
-    libion_mtk \
-    libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
     libksensor \
@@ -390,7 +388,7 @@ PRODUCT_PACKAGES += \
     libaiselector \
     libdpframework \
     libgamehdr \
-    libmnl \
+    libmnl_mtk \
     libmtk_drvb \
     libneuralnetworks_sl_driver_mtk_prebuilt \
     libneuron_adapter_mgvi \
@@ -523,11 +521,10 @@ PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
     MtkGbaService \
-    camerax-vendor-extensions \
     MtkTelephonyAssist \
+    camerax-vendor-extensions \
     mediatek-ims-base \
     mediatek-telephony-base \
-    mediatek-telephony-common \
     mediatek-ims-extension-plugin \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.beanpod.xml \
@@ -589,7 +586,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libdpframework_so \
     vendor_lib64_libgamehdr_so \
-    vendor_lib64_libmnl_so \
+    vendor_lib64_libmnl_mtk_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
     vendor_lib64_libneuron_adapter_mgvi_so \
