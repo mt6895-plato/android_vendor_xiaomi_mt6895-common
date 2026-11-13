@@ -542,7 +542,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml \
     ccci_mdinit \
     ccci_rpcd \
-    conninfra_loader \
     em_hidl \
     fidoca_isee \
     android.hardware.drm@1.4-service.widevine \
